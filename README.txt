@@ -10,7 +10,9 @@ http://www.avinashcloud.online/
 
 ## 1. Project Overview
 
-This project demonstrates deployment of a MERN (MongoDB, Express, React, Node.js) application on AWS infrastructure. The backend API is deployed on EC2 instances and managed using PM2, while Nginx is used as a reverse proxy. High availability is achieved using an AWS Application Load Balancer, and DNS with SSL is configured using Cloudflare.
+This project demonstrates deployment of a MERN (MongoDB, Express, React, Node.js) application on AWS infrastructure. 
+The backend API is deployed on EC2 instances and managed using PM2, while Nginx is used as a reverse proxy. 
+High availability is achieved using an AWS Application Load Balancer, and DNS with SSL is configured using Cloudflare.
 
 ---
 
