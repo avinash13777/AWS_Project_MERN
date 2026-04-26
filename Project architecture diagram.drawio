@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Page-1" id="Deaw9oaX-cXCO2GE6ky7">
+    <mxGraphModel dx="1873" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fydJqzISYmR2mV2wQerw-22" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="100" as="sourcePoint" />
+            <mxPoint x="320" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-23" edge="1" parent="1" source="fydJqzISYmR2mV2wQerw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.796;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" target="fydJqzISYmR2mV2wQerw-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="491" y="200" />
+            </Array>
+            <mxPoint x="460" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6666FF;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&#xa;Cloudflare (DNS + SSL)&#xa;&#xa;" vertex="1">
+          <mxGeometry height="30" width="80" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-29" edge="1" parent="1" source="fydJqzISYmR2mV2wQerw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fydJqzISYmR2mV2wQerw-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;" value="" vertex="1">
+          <mxGeometry height="190" width="340" x="220" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AWS Load Balancer" vertex="1">
+          <mxGeometry height="30" width="71" x="299" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-24" edge="1" parent="1" source="fydJqzISYmR2mV2wQerw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fydJqzISYmR2mV2wQerw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="EC2 Instance 1&lt;br&gt;Nginx + Node.js + PM2" vertex="1">
+          <mxGeometry height="74" width="74" x="240" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-13" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="74" width="74" x="350" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-14" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="73" width="73" x="460" y="337" as="geometry" />
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="EC2 Instance 2&lt;br&gt;Nginx + Node.js + PM2" vertex="1">
+          <mxGeometry height="18" width="60" x="360" y="370.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-28" edge="1" parent="1" source="fydJqzISYmR2mV2wQerw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="fydJqzISYmR2mV2wQerw-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="EC3 Instance 3&lt;br&gt;Nginx + Node.js + PM2" vertex="1">
+          <mxGeometry height="30" width="60" x="466.5" y="358.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-19" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#00FF00;" value="" vertex="1">
+          <mxGeometry height="110" width="103" x="357" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="MongoDB Atlas&lt;br&gt;(Database)" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="fydJqzISYmR2mV2wQerw-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#FF2D10;align=center;verticalAlign=middle;rounded=0;" value="AWS Cloud (VPC)" vertex="1">
+          <mxGeometry height="30" width="73.5" x="480" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="nwXdeWhe1nZAVYHka56j-1" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;fillColor=#232F3E;strokeColor=none;shape=mxgraph.aws4.user;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="User / Client" vertex="1">
+          <mxGeometry height="60" width="60" x="290" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nwXdeWhe1nZAVYHka56j-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Http connection&amp;nbsp;" vertex="1">
+          <mxGeometry height="190" width="60" x="330" y="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WsWz-h7xFZrdKpv-vUt2" name="Page-2">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kWumipzcpj2uTHged_qp-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF9900;fillColor=none;fontColor=#FF9900;fontStyle=1" value="AWS Cloud (EC2 Instance)" vertex="1">
+          <mxGeometry height="340" width="460" x="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kWumipzcpj2uTHged_qp-2" parent="kWumipzcpj2uTHged_qp-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#009639;fontColor=#ffffff;strokeColor=none;" value="Nginx Proxy&lt;br&gt;(Port 80)" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="kWumipzcpj2uTHged_qp-3" parent="kWumipzcpj2uTHged_qp-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#61DAFB;fontColor=#000000;strokeColor=none;" value="React App&lt;br&gt;(Port 3000)" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kWumipzcpj2uTHged_qp-4" parent="kWumipzcpj2uTHged_qp-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#68A063;fontColor=#ffffff;strokeColor=none;" value="Node.js / Express&lt;br&gt;(Port 8000)" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="kWumipzcpj2uTHged_qp-5" edge="1" parent="kWumipzcpj2uTHged_qp-1" source="kWumipzcpj2uTHged_qp-2" style="endArrow=classic;html=1;exitX=1;exitY=0.25;entryX=0;entryY=0.5;" target="kWumipzcpj2uTHged_qp-3" value="Serve Static">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kWumipzcpj2uTHged_qp-6" edge="1" parent="kWumipzcpj2uTHged_qp-1" source="kWumipzcpj2uTHged_qp-2" style="endArrow=classic;html=1;exitX=1;exitY=0.75;entryX=0;entryY=0.5;" target="kWumipzcpj2uTHged_qp-4" value="Proxy /api">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kWumipzcpj2uTHged_qp-7" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;fillColor=#232F3E;strokeColor=none;shape=mxgraph.aws4.user;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="User / Client" vertex="1">
+          <mxGeometry height="60" width="60" x="40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="kWumipzcpj2uTHged_qp-8" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#47A248;fontColor=#ffffff;strokeColor=none;" value="MongoDB Atlas" vertex="1">
+          <mxGeometry height="80" width="100" x="680" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="kWumipzcpj2uTHged_qp-9" edge="1" parent="1" source="kWumipzcpj2uTHged_qp-7" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="kWumipzcpj2uTHged_qp-2" value="HTTP Request">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kWumipzcpj2uTHged_qp-10" edge="1" parent="1" source="kWumipzcpj2uTHged_qp-4" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="kWumipzcpj2uTHged_qp-8" value="Data Flow">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
